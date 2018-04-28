@@ -11,6 +11,6 @@ RUN conda env create -f /tmp/environment.yml && conda clean --all
 
 WORKDIR /tmp
 ADD ./setup_onmt_custom.sh /tmp/
-RUN chmod +x /tmp/setup_onmt_custom.sh && /tmp/setup_onmt_custom.sh && rm -rf /tmp
+RUN /bin/bash /tmp/setup_onmt_custom.sh && rm -rf /tmp
 
 ENTRYPOINT [ "/bin/bash", "-c" ]
