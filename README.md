@@ -1,6 +1,6 @@
 # Seq2Seq-Vis-Base
 
-Docker bsae image for https://github.com/HendrikStrobelt/Seq2Seq-Vis
+Docker base image for https://github.com/HendrikStrobelt/Seq2Seq-Vis
 
 docker image: 
 ```
